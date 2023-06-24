@@ -6,7 +6,7 @@ android {
     compileSdk 30
 
     defaultConfig {
-        applicationId "com.w2016.sensorfilter"
+        applicationId "com.w2016-bill50han.sensorfilter-noa"
         minSdk 3
         targetSdk 27
         versionCode 4

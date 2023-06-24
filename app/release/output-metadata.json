@@ -4,16 +4,16 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.w2016.sensorfilter",
+  "applicationId": "com.w2016-bill50han.sensorfilter-noa",
   "variantName": "release",
   "elements": [
     {
       "type": "SINGLE",
       "filters": [],
       "attributes": [],
-      "versionCode": 4,
-      "versionName": "2.2",
-      "outputFile": "app-release.apk"
+      "versionCode": 1,
+      "versionName": "1.0",
+      "outputFile": "noa.apk"
     }
   ],
   "elementType": "File"

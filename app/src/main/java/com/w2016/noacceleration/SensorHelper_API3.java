@@ -34,9 +34,27 @@ public class SensorHelper_API3 {
                             int sensorType = sensorEvent.sensor.getType();
                             switch (sensorType) {
                                 case SensorManager.SENSOR_ACCELEROMETER:
-                                    sensorEvent.values[0] = (float) Math.floor(sensorEvent.values[0]);
-                                    sensorEvent.values[1] = (float) Math.floor(sensorEvent.values[1]);
-                                    sensorEvent.values[2] = (float) Math.floor(sensorEvent.values[2]);
+                                    sensorEvent.values[0] = (float) 0;
+                                    sensorEvent.values[1] = (float) 0;
+                                    sensorEvent.values[2] = (float) 0;
+                                    break;
+                                default:
+                                    break;
+                            }
+
+                        }
+                    }
+                    @Override
+                    protected void afterHookedMethod(MethodHookParam param) throws Throwable {
+                        super.afterHookedMethod(param);
+                        if (param.args[0] != null) {
+                            SensorEvent sensorEvent = (SensorEvent) param.args[0];
+                            int sensorType = sensorEvent.sensor.getType();
+                            switch (sensorType) {
+                                case SensorManager.SENSOR_ACCELEROMETER:
+                                    sensorEvent.values[0] = (float) 0;
+                                    sensorEvent.values[1] = (float) 0;
+                                    sensorEvent.values[2] = (float) 0;
                                     break;
                                 default:
                                     break;
