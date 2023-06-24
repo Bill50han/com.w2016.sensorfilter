@@ -34,6 +34,8 @@ public class SensorHelper_API3 {
                             int sensorType = sensorEvent.sensor.getType();
                             switch (sensorType) {
                                 case SensorManager.SENSOR_ACCELEROMETER:
+                                case SensorManager.SENSOR_ORIENTATION:
+                                case SensorManager.SENSOR_ORIENTATION_RAW:
                                     sensorEvent.values[0] = (float) 0;
                                     sensorEvent.values[1] = (float) 0;
                                     sensorEvent.values[2] = (float) 0;
@@ -52,6 +54,8 @@ public class SensorHelper_API3 {
                             int sensorType = sensorEvent.sensor.getType();
                             switch (sensorType) {
                                 case SensorManager.SENSOR_ACCELEROMETER:
+                                case SensorManager.SENSOR_ORIENTATION:
+                                case SensorManager.SENSOR_ORIENTATION_RAW:
                                     sensorEvent.values[0] = (float) 0;
                                     sensorEvent.values[1] = (float) 0;
                                     sensorEvent.values[2] = (float) 0;

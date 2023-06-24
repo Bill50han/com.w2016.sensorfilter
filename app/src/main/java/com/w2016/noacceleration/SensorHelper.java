@@ -36,7 +36,14 @@ public class SensorHelper {
                                 case Sensor.TYPE_MAGNETIC_FIELD_UNCALIBRATED:
                                 case Sensor.TYPE_ACCELEROMETER:
                                 case Sensor.TYPE_ACCELEROMETER_UNCALIBRATED:
+                                case Sensor.TYPE_ACCELEROMETER_LIMITED_AXES:
+                                case Sensor.TYPE_ACCELEROMETER_LIMITED_AXES_UNCALIBRATED:
                                 case Sensor.TYPE_LINEAR_ACCELERATION:
+                                case Sensor.TYPE_ORIENTATION:
+                                case Sensor.TYPE_GYROSCOPE:
+                                case Sensor.TYPE_GYROSCOPE_LIMITED_AXES:
+                                case Sensor.TYPE_GYROSCOPE_LIMITED_AXES_UNCALIBRATED:
+                                case Sensor.TYPE_GYROSCOPE_UNCALIBRATED:
                                     sensorEvent.values[0] = (float) 0;
                                     sensorEvent.values[1] = (float) 0;
                                     sensorEvent.values[2] = (float) 0;
@@ -58,7 +65,14 @@ public class SensorHelper {
                                 case Sensor.TYPE_MAGNETIC_FIELD_UNCALIBRATED:
                                 case Sensor.TYPE_ACCELEROMETER:
                                 case Sensor.TYPE_ACCELEROMETER_UNCALIBRATED:
+                                case Sensor.TYPE_ACCELEROMETER_LIMITED_AXES:
+                                case Sensor.TYPE_ACCELEROMETER_LIMITED_AXES_UNCALIBRATED:
                                 case Sensor.TYPE_LINEAR_ACCELERATION:
+                                case Sensor.TYPE_ORIENTATION:
+                                case Sensor.TYPE_GYROSCOPE:
+                                case Sensor.TYPE_GYROSCOPE_LIMITED_AXES:
+                                case Sensor.TYPE_GYROSCOPE_LIMITED_AXES_UNCALIBRATED:
+                                case Sensor.TYPE_GYROSCOPE_UNCALIBRATED:
                                     sensorEvent.values[0] = (float) 0;
                                     sensorEvent.values[1] = (float) 0;
                                     sensorEvent.values[2] = (float) 0;
