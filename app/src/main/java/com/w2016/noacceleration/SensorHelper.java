@@ -43,6 +43,7 @@ public class SensorHelper {
                                 case Sensor.TYPE_GAME_ROTATION_VECTOR:
                                 case Sensor.TYPE_GEOMAGNETIC_ROTATION_VECTOR:
                                 case Sensor.TYPE_ROTATION_VECTOR:
+                                case Sensor.TYPE_GRAVITY:
                                     sensorEvent.values[0] = (float) 0;
                                     sensorEvent.values[1] = (float) 0;
                                     sensorEvent.values[2] = (float) 0;
@@ -71,6 +72,7 @@ public class SensorHelper {
                                 case Sensor.TYPE_GAME_ROTATION_VECTOR:
                                 case Sensor.TYPE_GEOMAGNETIC_ROTATION_VECTOR:
                                 case Sensor.TYPE_ROTATION_VECTOR:
+                                case Sensor.TYPE_GRAVITY:
                                     sensorEvent.values[0] = (float) 0;
                                     sensorEvent.values[1] = (float) 0;
                                     sensorEvent.values[2] = (float) 0;
