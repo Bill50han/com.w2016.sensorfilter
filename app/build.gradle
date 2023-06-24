@@ -9,10 +9,9 @@ android {
         applicationId "com.w2016bill50han.sensorfilternoa"
         minSdk 3
         targetSdk 27
-        versionCode 4
-        versionName "2.2"
+        versionCode 1
+        versionName "1.0"
 
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
 
     buildTypes {
@@ -28,7 +27,6 @@ android {
 }
 
 dependencies {
-    androidTestImplementation 'junit:junit:4.12'
     compileOnly 'de.robv.android.xposed:api:82'
     compileOnly 'de.robv.android.xposed:api:82:sources'
 }
