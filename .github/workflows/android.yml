@@ -4,12 +4,14 @@ on:
     push:
         branches:
             - master
+            - main
             - "feature/*"
         tags:
             - "v*.*.*"
     pull_request:
         branches:
             - master
+            - main
             - "feature/*"
 
 jobs:
