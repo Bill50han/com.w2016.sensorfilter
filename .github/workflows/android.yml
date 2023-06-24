@@ -40,6 +40,9 @@ jobs:
         name: Release APK
         needs: apk
         runs-on: ubuntu-latest
+        permissions:
+          contents: write
+          packages: write
         steps:
         - name: Get branch name
           id: branch-name
