@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.w2016-bill50han.sensorhooker-noa.steps">
+    package="com.w2016bill50han.sensorhookernoa.steps">
 
     <application
         android:label="@string/label">
